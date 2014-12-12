@@ -9,7 +9,11 @@
 
 # Creat the rvm getset to use in the directory
 source ~/.rvm/scripts/rvm
+
+# Verify that rvm is a function
 type rvm | head -n 1
+
+# Add the gemset
 rvm use ruby-2.1.5@dashingwidgetdev --create
 
 # Install the dashing framework into the gemset
