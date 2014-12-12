@@ -8,10 +8,25 @@
 #  - gem set has not been created yet
 
 # Creat the rvm getset to use in the directory
+source ~/.rvm/scripts/rvm
+type rvm | head -n 1
 rvm use ruby-2.1.5@dashingwidgetdev --create
+
+# Install the dashing framework into the gemset
+gem install dashing
+
+# Create a new directory
+dashing new widget-dev-environment
 
 # Create gemset files in directory
 echo "dashingwidgetdev" >> .ruby-gemset
 echo "ruby-2.1.5" >> .ruby-version
+
+#install the bundler gem
+gem install bundler
+
+bundle
+
+echo "I'm done!"
 
 exit
