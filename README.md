@@ -8,7 +8,7 @@ Assumptions:
 
 -RVM is already installed
 
--Script is run inside the local git directory
+-Script is run inside the workspace folder
 
 -A gemset is not pre-created
 
