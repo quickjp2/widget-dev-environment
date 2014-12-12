@@ -4,7 +4,12 @@ Version 1:
 Scripts used: geminstall.sh
 
 Assumptions:
-OS is Ubuntu 14.04 32bit on a virtual machine with 1GB of ram and 20GB of disk
-RVM is already installed
-Script is run inside the local git directory
-A gemset is not pre-created
+-OS is Ubuntu 14.04 32bit on a virtual machine with 1GB of ram and 20GB of disk
+
+-RVM is already installed
+
+-Script is run inside the local git directory
+
+-A gemset is not pre-created
+
+-ruby-2.1.5 is installed
