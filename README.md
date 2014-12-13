@@ -1,5 +1,17 @@
 The project is a series of scripts that assist in setting up a ruby dev environment for developing dashing widgets and dashboards.
 
+Instructions:
+-Install curl
+
+-Create a workspace folder
+
+
+Version 2:
+Scripts used: geminstall.sh, rvminstall.sh
+-ruby-2.1.5 installed now
+
+-rvm is installed
+
 Version 1:
 Scripts used: geminstall.sh
 
