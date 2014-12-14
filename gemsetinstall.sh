@@ -22,6 +22,9 @@ gem install dashing
 # Create a new directory
 dashing new widget-dev-environment
 
+# Switch to the new directory
+cd widget-dev-environment
+
 # Create gemset files in directory
 echo "dashingwidgetdev" >> .ruby-gemset
 echo "ruby-2.1.5" >> .ruby-version
