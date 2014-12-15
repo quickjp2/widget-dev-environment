@@ -16,6 +16,8 @@ These instructions also assume the following:
 - RVM has not been installed
 - You have an active internet connection
 
+If you have already installed RVM AND the latest version of Ruby to RVM, then skip step 4.
+
 Instructions:
 -------------
 1. Install curl and node.js
